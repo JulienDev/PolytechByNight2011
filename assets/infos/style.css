@@ -1,0 +1,301 @@
+body {
+	background:#1F1F1F url(../images/background.png);
+    background-repeat:no-repeat;
+	font-family:Arial;
+	background-position:center top;	
+    margin:0px;
+    text-align:justify;
+    color:white;
+    text-shadow: 0em 0em 0.5em black;
+}
+
+#mainContainer {
+	margin:auto;
+    padding-left:10px;
+	width:970px;
+	height:774px;	
+}
+
+
+a {
+	color:white;
+	text-decoration:none;	
+}
+
+a img{
+    border:none;
+} 
+
+h1 {
+    margin-top:0;
+    font-size:22pt;
+    text-transform:uppercase;
+    text-align:left;
+    padding:10px 25px 10px;
+    text-shadow: 0em 0em 0em black;
+}
+
+h1 span {
+    font-size:15pt;
+}
+
+p {
+    font-family:Arial;
+    font-size:12pt;
+}
+    
+#leftContainer {
+    text-align:center;
+    border-style:none solid none solid;
+	float:left;
+	width:235px;
+	height:100%;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:25px;
+
+}
+
+
+#leftCenterContainer p {
+    margin:0;
+}
+
+.leftMenuHeader {
+    padding:20px 0 5px 0;
+    font-family:"Arial Black", Tahoma, Arial;
+    font-weight:bold;
+    font-variant:small-caps;
+}   
+
+#leftCenterContainer {
+    text-align:center;
+}   
+
+.leftMenuItem p {
+    font-family:Arial;
+    font-size:15pt;
+    text-transform:uppercase;
+}
+.leftMenuItem a {
+    color:white;
+    text-decoration:none;
+}
+
+#topContainer, #menuContainer {	
+	height:60px;	
+}
+
+#leftCenterContainer, #content{
+    height:712px;
+    border-style:solid none none none;
+    background:url(../images/lightBlackTrans.png);
+}
+
+#leftCenterContainer {
+}
+
+#centerContainer {
+    border-style:none solid none none;
+	display:inline-block;
+	width:714px;
+    height:100%;
+} 
+
+#menuContainer {
+	display:inline-block;
+	position:relative;
+	width:100%;
+}
+ 
+
+#content {
+    background:url(../images/blackTrans.png);
+	text-align:justify;
+    position:relative;
+    width: 100%;
+    display:inline-block;
+    line-height:1.35;
+}
+
+.scroll-pane {
+	height:708px;
+	width:100%;
+	overflow:auto;
+}
+
+label {
+    display:inline-block;
+    width:110px;
+}
+
+#content p:first-child {
+    margin-top:25px;
+}
+
+#content p, #content label {
+    margin:0.5em 25px 0.5em 25px;
+}
+
+#timer {
+    text-align:center;
+}
+
+.timerRight {
+    text-align:left;
+    width:50%;
+}
+
+.timerLeft {
+    text-align:right;
+    width:50%;
+}
+
+#dayTimer {
+    font-size:xx-large;
+    font-family:"Arial Black", Tahoma, Arial;
+    font-weight:bold;
+}
+
+.menu {
+    text-shadow: 0em 0em 0em black;
+	/*display:inline-block;*/
+    float:left;
+    height:100%;
+    width:119px;
+}
+
+.menu:hover {
+    background-color:white;
+}
+
+.currentPage p, .subMenuContainer p, .menu:hover p, h1, .subMenuTypeSalle, #popupContent, #prixPaypal, #prixBde {
+    color:#223342;
+}
+
+.menu.soon:hover {
+    background:transparent;
+}
+
+.menu.soon p:hover, .menu:hover.soon p {
+    color:white;
+}
+
+.currentPage, h1 {
+    background:url(../images/whiteTrans.png);
+}
+
+.menu a {
+	color:white;
+	text-decoration:none;	
+}
+
+
+.menu p {
+    padding: 20px 0px 17px 0px;
+    margin: 0px;
+	text-align:center;
+    font-size:13pt;
+}
+
+
+.currentPage p {
+    padding-top:18px;
+    font-family:"Arial Black", Tahoma, Arial;
+    font-weight:bold;
+}
+
+.subMenuContainer {
+    z-index: 10;
+    text-transform:uppercase;
+    font-family:Arial;
+    text-align:left;
+    background-color:white;
+    position:absolute;
+    display:none;
+    padding:0 0 10px;
+}
+
+.subMenuContainer p {
+    text-align:left;
+    font-family:Arial;
+    font-size:10pt;
+    padding:0;
+    margin:0 10px 0;
+}
+
+form {
+    margin: 10px 0;
+}
+
+.submitButton {
+    margin:10px 23%;
+}
+
+.menu:hover .subMenuContainer, .subMenuContainer:hover {
+    display:block;
+}
+
+.subMenuContainer p.subMenuTypeSalle {
+    margin:20px 10px 5px;
+    font-size:9pt;
+    font-family:"Arial Black", Tahoma, Arial;
+    font-weight:bold;
+    font-variant: small-caps ; 
+}
+
+.subMenuContent {
+    margin:20px 5px 5px 5px;
+}
+
+.mainArtist p {
+    font-size:15pt;
+}   
+
+
+#popup {
+    z-index:100;
+    position:fixed;
+    top:0px;
+    background:url(../images/blackTrans.png);
+    height:100%;
+    width:100%;
+}
+
+.cache {
+    visibility:hidden;
+}
+
+#popupContent {
+    text-shadow:0em 0em 0em black;
+    position:relative;
+    top:30%;
+    margin:auto;
+    padding:10px 10px;
+    height:auto;
+    width:300px;
+    background-color:white;
+    border-radius:5px;
+}
+
+#prixPaypal, #prixBde {
+    float:left;
+    width:355px;
+    text-align:center;
+    position:relative;
+    top:-50px;
+    text-shadow:none;
+    font-family:Arial, Tahoma;
+    font-size:15pt;
+    font-weight:bold;
+}
+
+#sallesSubMenuContainer {
+    
+}   
+
+
+.error {
+    color:#A52A2A;
+    margin-left:50px;
+}

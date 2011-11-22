@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:background="#0f1a23" android:orientation="vertical">
+
+	<include android:layout_width="fill_parent"
+		android:layout_height="wrap_content" layout="@layout/en_tete" />
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="@drawable/bg_generique_halo">
+
+		<ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1"
+			android:layout_height="fill_parent" android:layout_margin="15dp">
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:orientation="vertical">
+
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+
+					<ImageView android:layout_width="wrap_content"
+					android:background="@drawable/bg_cadre_presentation" android:gravity="center"
+					android:padding="15dp" android:src="@drawable/photo_presentation"
+					android:layout_height="wrap_content" android:scaleType="fitXY"
+					android:id="@+id/ivPresentation"></ImageView>
+
+				</LinearLayout>
+
+				<WebView android:layout_width="fill_parent"
+					android:layout_marginTop="15dp" android:id="@+id/wvPresentation"
+					android:layout_height="wrap_content" android:background="#00000000"></WebView>
+
+			</LinearLayout>
+			
+		</ScrollView>
+
+	</LinearLayout>
+
+</LinearLayout>

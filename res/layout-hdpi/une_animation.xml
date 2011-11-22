@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:background="#0f1a23" android:orientation="vertical">
+
+	<include android:layout_width="fill_parent"
+		android:layout_height="wrap_content" layout="@layout/en_tete" />
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="@drawable/bg_generique_halo">
+
+		<ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1"
+			android:layout_height="fill_parent" android:layout_margin="15dp">
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:orientation="vertical">
+
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+
+					<ImageView android:layout_width="130dp"
+						android:src="@drawable/thumbnail_defaut" android:layout_height="fill_parent"
+						android:id="@+id/ivArtiste" android:layout_gravity="center_vertical"
+						android:background="#000000"></ImageView>
+
+					<LinearLayout android:layout_width="fill_parent"
+						android:layout_height="wrap_content" android:orientation="vertical"
+						android:background="@drawable/bg_cadre_presentation_generique"
+						android:gravity="center_vertical" android:paddingLeft="5dp"
+						android:paddingTop="10dp" android:paddingBottom="10dp">
+
+						<TextView android:layout_width="wrap_content" android:id="@+id/tvPresentationUn"
+							android:text="Un" android:layout_height="wrap_content"
+							android:textSize="25dp" android:textColor="#223342"></TextView>
+
+						<TextView android:layout_width="wrap_content" android:id="@+id/tvPresentationDeux"
+							android:text="Deux" android:layout_height="wrap_content"
+							android:textSize="18dp" android:textColor="#223342"></TextView>
+
+						<TextView android:layout_width="wrap_content" android:id="@+id/tvPresentationTrois"
+							android:text="Trois" android:layout_height="wrap_content"
+							android:textSize="18dp" android:textColor="#223342"></TextView>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<WebView android:layout_width="fill_parent"
+					android:layout_marginTop="15dp" android:id="@+id/wvPresentation"
+					android:layout_height="wrap_content" android:background="#00000000"></WebView>
+
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:layout_marginTop="15dp"
+					android:background="@drawable/bg_cadre_presentation"
+					android:gravity="center" android:id="@+id/llLiens"
+					android:visibility="gone" android:orientation="horizontal">
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+</LinearLayout>

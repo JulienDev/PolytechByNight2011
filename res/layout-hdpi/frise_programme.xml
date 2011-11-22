@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@drawable/background_app_land">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:background="#881816">
+
+		<include android:layout_width="180dp" android:layout_height="wrap_content"
+			layout="@layout/en_tete" />
+
+		<fr.polytechbynight.outils.MyHorizontalScrollView
+			android:id="@+id/mhsvHeures" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_gravity="center_vertical" android:scrollbars="none">
+
+			<RelativeLayout android:id="@+id/rlHeures"
+				android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="center_vertical"></RelativeLayout>
+
+		</fr.polytechbynight.outils.MyHorizontalScrollView>
+
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="horizontal">
+
+		<fr.polytechbynight.outils.MyVerticalScrollView
+			android:id="@+id/mvsvSalles" android:layout_width="180dp"
+			android:layout_height="fill_parent" android:scrollbars="none">
+
+			<LinearLayout android:id="@+id/ll2"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:orientation="vertical" android:background="#280c0c" android:paddingTop="10dp"></LinearLayout>
+
+		</fr.polytechbynight.outils.MyVerticalScrollView>
+
+		<fr.polytechbynight.outils.MyVerticalScrollView
+			android:id="@+id/mvsvProg" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:scrollbars="none">
+
+			<fr.polytechbynight.outils.MyHorizontalScrollView
+				android:id="@+id/mhsvProg" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:scrollbars="none">
+
+				<LinearLayout android:id="@+id/llProg"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"
+					android:orientation="vertical" android:paddingTop="10dp">
+				</LinearLayout>
+
+			</fr.polytechbynight.outils.MyHorizontalScrollView>
+		</fr.polytechbynight.outils.MyVerticalScrollView>
+
+	</LinearLayout>
+
+</LinearLayout>

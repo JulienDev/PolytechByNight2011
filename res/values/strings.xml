@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">PBN 2011</string>
+	
+	<string name="gmap">0aZG3J-qvklVT1gm8pxjRja-VE90cEBhU6LmUqA</string>
+
+	<string name="bientotDisponible">Bientôt disponible.\nN\'oublie pas de mettre à jour
+		l\'appli avant le festival !</string>
+
+	<string name="menuAPropos">A propos</string>
+	<string name="actualiser">Actualiser</string>
+	<string name="action">Action</string>
+	<string name="supprimer">Supprimer</string>
+	<string name="partager">Partager</string>
+
+	<string name="miseAJour">Mise à jour</string>
+	<string name="miseAJourTermine">Terminé</string>
+	<string name="miseAJourErreur">Erreur</string>
+
+	<string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing
+		elit. Maecenas feugiat dapibus erat vel ullamcorper. Proin fermentum,
+		justo sit amet tempus egestas, erat nibh aliquam libero, nec aliquet
+		lectus dolor a orci. Proin elementum suscipit eleifend. Vivamus nulla
+		urna, fermentum ac gravida id, convallis id libero. Nulla facilisi.
+		Suspendisse iaculis purus non elit feugiat varius a ut lectus. In hac
+		habitasse platea dictumst. Nullam vel sapien eu nunc malesuada
+		sollicitudin. Praesent ornare fermentum tristique. Suspendisse dolor
+		leo, fermentum quis ultrices non, posuere et est. Ut et odio id lorem
+		scelerisque hendrerit vitae non odio.
+
+		Donec dapibus vestibulum nulla,
+		in scelerisque dui ornare quis. Ut euismod
+		lacinia lacus vitae
+		elementum. Cras faucibus dignissim turpis, sit
+		amet convallis lacus
+		gravida eu. Nullam dignissim dignissim neque eget
+		elementum. Ut
+		consequat ullamcorper augue, vitae ullamcorper lacus
+		consequat quis.
+		Duis faucibus vulputate purus a facilisis. Ut eu
+		sapien nibh. Nunc
+		rutrum augue sem, sit amet feugiat diam. Proin nec
+		sagittis augue.
+		Maecenas a libero vitae elit suscipit pharetra.
+		Phasellus viverra
+		aliquam purus, facilisis porttitor arcu aliquet
+		vitae. Sed egestas
+		blandit sem quis rutrum. Suspendisse eget ipsum sit
+		amet ligula feugiat
+		auctor vel et diam. Aenean eu odio eu tellus
+		suscipit venenatis id a
+		est. Nulla ornare eleifend sem et ornare. Sed
+		eu elit orci, at sagittis
+		tortor. In quis rutrum augue. Nunc eros
+		erat, facilisis eget fringilla
+		a, fringilla quis dui. Nulla mauris
+		magna, suscipit sed cursus sed,
+		dictum nec odio. Pellentesque habitant
+		morbi tristique senectus et
+		netus et malesuada fames ac turpis
+		egestas.
+
+		Nulla vitae tortor nunc.
+		Nulla ipsum ligula, auctor in euismod ac, bibendum
+		et lorem. Donec nec
+		elit pharetra lectus bibendum commodo. Nullam
+		volutpat tincidunt
+		bibendum. In interdum lobortis tincidunt. Integer
+		lectus sem, hendrerit
+		non volutpat ac, sodales non dolor. Donec
+		vulputate felis ut orci
+		pharetra feugiat. Cras molestie blandit
+		tellus, et pellentesque nulla
+		convallis tristique. Morbi a nisi erat.
+		Ut a leo vitae sem ultrices
+		commodo. Nunc pretium hendrerit feugiat.
+		Nunc sem nunc, condimentum
+		quis pulvinar vitae, porta interdum lectus.
+		Sed ante nisi, accumsan
+		vitae ullamcorper in, vehicula id neque. Fusce
+		vulputate congue libero,
+		ac sodales eros sollicitudin lacinia. Donec
+		in libero quis nisi
+		vestibulum porta. Morbi nulla mi, congue in mattis
+		ut, volutpat non
+		lectus. Nulla tortor leo, scelerisque in sollicitudin
+		et, facilisis id
+		nunc. Aenean id ligula leo, quis malesuada tellus.
+	</string>
+
+	<string name="presentation">Le Gala Polytech By Night est un des plus grands
+		événements étudiant Nantais. La 11ème édition de ce rendez-vous
+		incontournable vous transportera cette année sur l\'immensité des
+		océans.&lt;br/>&lt;br/>
+
+		Lors de la 10ème édition, vous avez pu redécouvrir le rêve
+		américain.
+		Cette année, embarquez sur notre luxueux paquebot pour une
+		croisière
+		de rêve. Au fil des escales, vous aurez la possibilité de
+		danser la
+		salsa à Cuba, de libérer le John Travolta qui est en vous à
+		Miami, ou
+		encore d\'embrasser la culture Nippone.&lt;br/>&lt;br/>
+
+		Découvrez tous les
+		secrets du paquebot en profitant de l\’air marin sur le pont
+		ou en
+		partageant un verre avec les machinistes. Si vous n\'avez pas la
+		chance de discuter avec le capitaine du navire dans sa cabine lounge,
+		vous trouverez peut-être dans votre main la si rare quinte flush
+		royale au casino !&lt;br/>&lt;br/>
+
+		Une douzaine de salles et autant d’ambiances
+		différentes pour être
+		certain de combler l\’ensemble de nos voyageurs.
+		Les élèves ingénieurs
+		et leurs partenaires seront au rendez-vous pour
+		faire de cette 11ème
+		édition du Gala Polytech By Night une soirée
+		inoubliable !</string>
+
+</resources>

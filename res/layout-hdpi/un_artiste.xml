@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<!--
+		* This file is part of Vieilles Charrues 2010. * * Vieilles Charrues
+		2010 is free software: you can redistribute it and/or modify * it
+		under the terms of the GNU General Public License as published by *
+		the Free Software Foundation, either version 3 of the License, or *
+		(at your option) any later version. * * Vieilles Charrues 2010 is
+		distributed in the hope that it will be useful, * but WITHOUT ANY
+		WARRANTY; without even the implied warranty of * MERCHANTABILITY or
+		FITNESS FOR A PARTICULAR PURPOSE. See the * GNU General Public License
+		for more details. * * You should have received a copy of the GNU
+		General Public License * along with Vieilles Charrues 2010. If not,
+		see <http://www.gnu.org/licenses/>. *
+	-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@drawable/bg_generique_halo"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+	<RelativeLayout android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1" android:layout_width="fill_parent">
+
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/linearLayout1"
+			android:layout_centerVertical="true" android:gravity="center">
+
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:textColor="#ca1117"
+				android:layout_centerVertical="true" android:textSize="28dp"
+				android:id="@+id/tvTitre" android:gravity="center"></TextView>
+
+		</LinearLayout>
+		
+
+	</RelativeLayout>
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:paddingLeft="5dp"
+		android:paddingTop="10dp">
+
+		<LinearLayout android:id="@+id/llContenu"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical">
+				<View android:layout_width="fill_parent" android:layout_height="1dip"
+			android:background="#cf4f50" />
+
+			<LinearLayout android:id="@+id/llInfosImage"
+				android:layout_width="wrap_content" android:layout_height="fill_parent"
+				android:orientation="horizontal" android:paddingBottom="5dp">
+
+				<ImageView android:id="@+id/ivArtiste"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:scaleType="center" android:paddingTop="6dp" android:paddingBottom="5dp" />
+
+				<LinearLayout android:id="@+id/llInfos"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:orientation="vertical" android:layout_gravity="bottom"
+					android:layout_marginLeft="10dp">
+
+					<TextView android:text="Nom" android:id="@+id/tvNomArtiste"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:textColor="#000000" android:textSize="20dp"/>
+
+					<TextView android:text="Genre" android:id="@+id/tvGenreArtiste"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:textColor="#000000" />
+
+					<TextView android:text="Origine" android:id="@+id/tvOrigineArtiste"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:textColor="#000000" />
+
+					<TextView android:text="@+id/tvLienArtiste" android:id="@+id/tvLienArtiste"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:textColor="#000000" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+				<View android:layout_width="fill_parent" android:layout_height="1dip"
+					android:background="#cf4f50" />
+					
+			<LinearLayout android:id="@+id/llConcerts"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:orientation="vertical" android:background="#EFF0F0"
+				android:layout_marginTop="10dp" />
+
+			<WebView android:id="@+id/wvDescription"
+				android:layout_height="wrap_content" android:layout_width="fill_parent" />
+
+		</LinearLayout>
+
+	</ScrollView>
+</LinearLayout>

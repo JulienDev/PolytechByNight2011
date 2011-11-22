@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="wrap_content" android:layout_height="20dp"
+		android:background="@drawable/bg_cadre_frise" android:id="@+id/llAnimation">
+
+		<TextView android:text="TextView" android:id="@+id/tvAnimationNom"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="20dp" android:textColor="#223342"></TextView>
+
+		<TextView android:text="TextView" android:id="@+id/tvAnimationGenre"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="12dp" android:textColor="#223342"></TextView>
+
+	</LinearLayout>
+</LinearLayout>

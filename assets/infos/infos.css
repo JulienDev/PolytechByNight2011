@@ -1,0 +1,82 @@
+p {
+    padding-left: 27px;
+}
+
+.info{
+    text-align:left;
+}
+
+.sectionInfos {
+    padding-left:30px;
+    margin:15px;
+}
+
+.sectionInfos .sectionInfos {
+    position:relative;
+    left:-30px;
+}
+
+.sectionInfos h1{
+    padding:0 25px 0;
+    margin:0;
+    font-size:12pt;
+    background:transparent;
+    color:white;
+    font-family:Arial Black;
+}
+
+.sectionInfos div {
+}
+
+.sectionInfos p {
+    font-size:10pt;
+}
+
+.sectionInfos li {
+    font-size:10pt;
+}
+
+#formContact {
+    margin:auto;
+    width:500px;
+}
+
+input {
+    width:150px;
+}
+
+
+#formContact label {
+    width:120px;
+    text-align:left;
+}
+
+#direction {
+    background:url(images/bousole.png);
+    background-repeat:no-repeat;
+}
+
+#tenue {
+    background:url(images/tenue.png);
+    background-repeat:no-repeat;
+}
+
+#contact {
+    background:url(images/contact.png);
+    background-repeat:no-repeat;
+}
+
+#tarifs {
+    background:url(images/tarifs.png);
+    background-repeat:no-repeat;
+}
+
+#accesTransports {
+    background:url(images/transports.png);
+    background-repeat:no-repeat;
+}
+
+#accesVoiture {
+    background:url(images/voiture.png);
+    background-repeat:no-repeat;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Notifications">
+		<CheckBoxPreference android:key="cbAlarme"
+			android:summary="me prévenir qu'un concert favoris va commencer"
+			android:title="Rappel" android:enabled="true"></CheckBoxPreference>
+		<CheckBoxPreference android:summary="Pour être sur de ne rien rater"
+			android:title="Vibrer" android:key="cbVibrer" android:enabled="true"></CheckBoxPreference>
+		<EditTextPreference android:key="etDuree"
+			android:summary=""
+			android:title="Combien de temps avant ?" android:defaultValue="15"
+			android:inputType="phone" android:digits="0123456789"
+			android:maxLength="3"></EditTextPreference>
+	</PreferenceCategory>
+</PreferenceScreen>

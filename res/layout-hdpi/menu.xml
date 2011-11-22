@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_height="fill_parent"
+	android:layout_width="fill_parent" android:background="@drawable/background_menu"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+
+	<ImageView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:src="@drawable/pbn_title"
+		android:layout_gravity="center_horizontal" android:layout_marginTop="35dp"></ImageView>
+
+	<GridView android:layout_height="match_parent"
+		android:layout_width="wrap_content" android:id="@+id/gvMenu"
+		android:layout_marginTop="35dp" android:numColumns="3" ></GridView>
+
+</LinearLayout>

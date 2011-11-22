@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="2" android:versionName="1.0.1" package="fr.polytechbynight">
+
+	<uses-sdk android:minSdkVersion="4" />
+
+	<!-- Only this application can receive the messages and registration result -->
+	<permission android:name="fr.polytechbynight.permission.C2D_MESSAGE"
+		android:protectionLevel="signature" />
+	<uses-permission android:name="fr.polytechbynight.permission.C2D_MESSAGE" />
+
+	<!-- This app has permission to register and receive message -->
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+
+
+	<application android:label="@string/app_name" android:icon="@drawable/icon"
+		android:theme="@android:style/Theme.NoTitleBar">
+
+		<!-- c2dm receiver pour la classe com.octo.notif.NotificationsReceiver -->
+		<receiver android:name=".outils.NotificationsReceiver"
+			android:permission="com.google.android.c2dm.permission.SEND">
+			<!-- Recevoir le registration id -->
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.REGISTRATION"></action>
+				<category android:name="fr.polytechbynight"></category>
+			</intent-filter>
+			<!-- Recevoir un message -->
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.RECEIVE"></action>
+				<category android:name="fr.polytechbynight"></category>
+			</intent-filter>
+		</receiver>
+
+
+		<uses-library android:name="com.google.android.maps" />
+
+		<activity android:label="@string/app_name" android:name=".main.Main"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".main.Menu"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".main.Presentation"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".programme.Salles"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".programme.UneSalle"></activity>
+		<activity android:name=".programme.Programme"
+			android:screenOrientation="landscape"></activity>
+		<activity android:name=".programme.UneAnimation"></activity>
+		<activity android:name=".divers.Notifications"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".divers.Sponsors"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".divers.Infos"
+			android:screenOrientation="portrait"></activity>
+
+	</application>
+
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+
+	<uses-permission android:name="android.permission.ACCESS_GPS"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS"></uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+</manifest> 
